@@ -1,5 +1,5 @@
 {
-    "name": "yii/helpers",
+    "name": "yii2/helpers",
     "description": "Yii工具包",
     "type": "library",
     "autoload": {
