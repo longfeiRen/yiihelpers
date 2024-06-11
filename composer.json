@@ -1,0 +1,18 @@
+{
+    "name": "yii/helpers",
+    "description": "Yii工具包",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Yii\\Helpers\\": "src/"
+        },
+        "files": [
+            "src/functions.php",
+            "src/number.php"
+        ]
+    },
+    "require": {
+        "adbario/php-dot-notation": "^2.5 || ^3.3"
+    }
+}
+
