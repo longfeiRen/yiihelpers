@@ -11,6 +11,7 @@
             "src/number.php"
         ]
     },
+    "minimum-stability": "stable",
     "require": {
         "adbario/php-dot-notation": "^2.5 || ^3.3"
     }

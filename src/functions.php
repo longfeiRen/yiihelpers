@@ -80,6 +80,10 @@ function ruDate(string $date, string $format = 'Y-m-d H:i'): string
  */
 function autoDate(string $date, string $format = 'Y-m-d H:i'): string
 {
+    if (empty($date)) {
+        return '';
+    }
+
     if (Yii::$app->language == 'zh-CN') {
         return cnDate($date, $format);
     }
